@@ -1,5 +1,4 @@
 import { prisma } from '@/lib/prisma'
-// import dayjs from 'dayjs'
 import { NextApiRequest, NextApiResponse } from 'next'
 
 export default async function handle(
@@ -58,7 +57,7 @@ export default async function handle(
       HAVING amount >= size
     `
 
-  const blockedDates = blockedDatesRaw.map((item) => item.date)
+  const blockedDates = blockedDatesRaw.map((item) => !item.date)
 
   return res.json({ blockedWeekDays, blockedDates })
 }
