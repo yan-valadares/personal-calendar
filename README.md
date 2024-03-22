@@ -5,14 +5,14 @@
 
 # The Project
 
-A personal schedule that you can public share so other person can schedule a time with you. It is also integrated with Google Calendar, so you can easily see your daily appointments.
+A personal schedule that you can share publicly so that other people can schedule a time with you. It is also integrated with Google Calendar, allowing you to easily view your daily appointments.
 
 You can create your personal calendar by using this link: <br>
 https://personal-schedule.vercel.app/
 
 <br>
 
-After your account is created, you can share the link to other people so they can schedule a time with you, give it a try: <br>
+Once your account is created, you can share the link with other people so they can schedule a time with you. Give it a try: <br>
 https://personal-schedule.vercel.app/schedule/yanvaladares
 
 # Preview
